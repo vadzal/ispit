@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>CONTACTS | Vampire Management</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Tinos&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Tinos:wght@400;700&display=swap" rel="stylesheet">
+
+
+<!-- jquery -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+
+<!-- jquery modal za privacy-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+
+</head>
+
+
+
+
+<body>
+<div id="site-container">
+  <header>
+    <div id="title" class="sadrzaj"> <a href="models.html">
+        <h1>VAMPIRE <br>MGMT </h1>
+      </a> </div>
+    <div id="navigation" class="sadrzaj">
+      <span> <a href="models.html">MODELS</a></span>
+      <span> <a href="about.html">ABOUT</a></span>
+      <span> <a href="contact.html">CONTACT</a></span>
+    </div>
+  </header>
+
+  <!-- slike modela -->
+<hr>
+
+  <div id="models-container">
+
+
+    <div class="models-box">
+      <a href="models/anav.html"><img class="models-preview" src="images/models-preview/1.png" onMouseOver="display_colorphoto(this)" onMouseOut="display_blackwhite(this)">
+      <span class="models-caption">ANA V</span></a>
+    </div>
+    <div class="models-box">
+      <a href="models/andrea.html">
+      <img class="models-preview" src="images/models-preview/2.webp" onMouseOver="display_colorphoto(this)" onMouseOut="display_blackwhite(this)">
+      <span class="models-caption">ANDREA</span></a>
+    </div>
+    <div class="models-box">
+      <a href="models/balint.html">
+      <img class="models-preview" src="images/models-preview/3.webp" onMouseOver="display_colorphoto(this)" onMouseOut="display_blackwhite(this)">
+      <span class="models-caption">BALINT</span> </a>
+    </div>
+    <div class="models-box">
+      <a href="models/clara.html">
+      <img class="models-preview" src="images/models-preview/4.webp" onMouseOver="display_colorphoto(this)" onMouseOut="display_blackwhite(this)">
+      <span class="models-caption">CLARA</span> </a>
+    </div>
+    <div class="models-box">
+      <a href="models/dunja.html">
+      <img class="models-preview" src="images/models-preview/5.webp"onMouseOver="display_colorphoto(this)" onMouseOut="display_blackwhite(this)">
+      <span class="models-caption">DUNJA</span></a>
+    </div>
+    <div class="models-box">
+      <a href="models/ilija.html">
+      <img class="models-preview" src="images/models-preview/6.webp" onMouseOver="display_colorphoto(this)" onMouseOut="display_blackwhite(this)">
+      <span class="models-caption">ILIJA</span></a>
+    </div>
+    <div class="models-box">
+      <a href="models/dustin.html">
+      <img class="models-preview" src="images/models-preview/7.webp" onMouseOver="display_colorphoto(this)" onMouseOut="display_blackwhite(this)">
+      <span class="models-caption">DUSTIN</span></a>
+    </div>
+    <div class="models-box">
+      <a href="models/iva.html">
+      <img class="models-preview" src="images/models-preview/8.webp" onMouseOver="display_colorphoto(this)" onMouseOut="display_blackwhite(this)">
+      <span class="models-caption">IVA</span></a>
+    </div>
+    <div class="models-box">
+      <a href="models/kaja.html">
+        <img class="models-preview" src="images/models-preview/9.webp" onMouseOver="display_colorphoto(this)" onMouseOut="display_blackwhite(this)">
+      <span class="models-caption">KAJA</span></a>
+    </div>
+
+  </div>
+
+  <hr>
+
+    <footer id="footer" class="sadrzaj">
+
+      <div id="social">
+        <a href="https://www.instagram.com/vampiremgmt/" target="_blank"> <img src="images/icon-ig.png" class="social-icon"></a>
+        <a href="https://www.facebook.com/vampiremgmt" target="_blank"> <img src="images/icon-fb.png" class="social-icon"></a>
+
+        </div>
+<br> <br>
+        <div id="privacy">
+          <span id="privacy-text"> <a href="privacy.html" rel="modal:open"> PRIVACY POLICY </a></span>
+        </div>
+
+
+    </footer>
+
+</div>
+
+
+<script type="text/javascript">
+function display_colorphoto(obj) {
+$(obj).addClass("blk-white");
+}
+function display_blackwhite(obj) {
+$(obj).removeClass("blk-white");
+}
+
+</script>
+
+
+</body>
+
+</html>
